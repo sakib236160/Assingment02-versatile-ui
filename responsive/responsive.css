@@ -8,4 +8,11 @@
     .banner-section{
         flex-direction: column;
     }
+    .habits-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habits-card img{
+        border-radius: 100rem;
+        border: 3px solid #272727;
+    }
 }
