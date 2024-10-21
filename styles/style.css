@@ -2,4 +2,52 @@
 
 body{
     font-family: "Inter", sans-serif;
+    background: #000;
+}
+/* default style */
+*{
+    margin: 0;
+}
+.container{
+    width: 85%;
+    margin: 5rem auto;
+}
+
+/* navbar style */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    padding-right: 9px;
+    border-radius: 2.43rem;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.nav-bar p{
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.nav-font{
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 800;
+}
+.btn-home{
+    color: #FFF;
+    padding: 0.5rem 1.25rem;
+    font-size: 1.12rem;
+    font-weight: 600;
+    border-radius: 2.87rem;
+    background: #E6533C;
+}
+.span{
+    color: #E6533C;
 }
