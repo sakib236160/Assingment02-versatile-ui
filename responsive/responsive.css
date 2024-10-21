@@ -15,4 +15,13 @@
         border-radius: 100rem;
         border: 3px solid #272727;
     }
+    .run-section{
+        flex-direction: column;
+        text-align: left;
+    }
+    .run-image-container img{
+        width: 100%;
+        margin-top: 1.87rem;
+        padding-right: 1.25rem;
+    }
 }
