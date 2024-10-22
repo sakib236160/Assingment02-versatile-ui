@@ -8,7 +8,7 @@
     .banner-section{
         flex-direction: column;
     }
-    .habits-container{
+    .habits-container, .row{
         grid-template-columns: repeat(1, 1fr);
     }
     .habits-card img{
