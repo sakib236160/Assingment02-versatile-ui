@@ -5,7 +5,7 @@
     .hum-bads{
         display: block;
     }
-    .banner-section{
+    .banner-section, .footer-flex{
         flex-direction: column;
     }
     .habits-container, .row{
@@ -23,5 +23,8 @@
         width: 100%;
         margin-top: 1.87rem;
         padding-right: 1.25rem;
+    }
+    .footer-Contract-me, .copy{
+        text-align: left;
     }
 }

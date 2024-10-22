@@ -271,3 +271,51 @@ body{
     height: 272PX;
     border-radius: 1.12rem;
 }
+/*---------------------------- footer section style ---------------------------*/
+.footer-section{
+    background: #222;
+    padding: 1rem 0;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: left;
+}
+.footer-font{
+    font-size: 4.37rem;
+    font-style: italic;
+    font-weight: 800;
+}
+.footer-logo{
+    width: 443px;
+}
+.footer-logo-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.87rem;
+    font-weight: 400;
+    margin: 1.25rem 0;
+}
+.footer-Contract-me h3{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.43rem;
+}
+.footer-Contract-me p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+}
+hr{
+    margin-top: 3.12rem;
+    margin-bottom: 2.25rem;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
