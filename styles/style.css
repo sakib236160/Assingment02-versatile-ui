@@ -234,6 +234,90 @@ body{
     height: 312px;
     border-radius: 1.12rem;
 }
+/*------------------------- BMI Calculator style ----------------------------*/
+.bmi-calculator-section{
+    width: 500px;
+    margin: 5.5rem auto;
+}
+.bmi-heading-text{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.87rem;
+}
+.bmi-description{
+    width: 600px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+.bmi-calculator-container{
+    background: #222;
+}
+.table-heading, .form-heading{
+    width: 443px;
+    padding: 3.25rem 0;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: left;
+}
+th{
+    color: #FFF;
+}
+td{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+/*------------------- table form ---------------*/
+.table-form-container{
+    display: flex;
+    justify-content: space-between;
+}
+.form-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+.form-inputs{
+    width: 500px;
+    margin-top: 2.12rem;
+    margin-bottom: 0.62rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+input,
+select{
+    width: 282px;
+    height: 48px;
+    margin: 0 auto;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 0 5px;
+}
+.activity-select{
+    width: 577px;
+    margin-bottom: 2.12rem;
+    color:rgba(255, 255, 255, 0.50);
+}
+.calculator-btn{
+    margin-bottom: 2.12rem;
+}
+
+
 /* --------------------- Meet Our Team section style ------------------------ */
 .meet-our-team-container{
     background: #222;
@@ -279,7 +363,6 @@ body{
 .footer-flex{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     text-align: left;
 }
 .footer-font{

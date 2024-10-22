@@ -5,15 +5,18 @@
     .hum-bads{
         display: block;
     }
-    .banner-section, .footer-flex{
+    .banner-section, .footer-flex, .table-form-container{
         flex-direction: column;
     }
-    .habits-container, .row{
+    .habits-container, .row, .form-inputs{
         grid-template-columns: repeat(1, 1fr);
     }
     .habits-card img{
         border-radius: 100rem;
         border: 3px solid #272727;
+    }
+    .form{
+        text-align: left;
     }
     .run-section{
         flex-direction: column;
