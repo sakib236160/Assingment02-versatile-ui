@@ -21,6 +21,7 @@ body{
     border: none;
     border-radius: 2.65rem;
     background: #E6533C;
+    cursor: pointer;
 
 }
 .Download-btn{
@@ -31,6 +32,7 @@ body{
     border: 1px solid gray;
     border-radius: 2.65rem;
     margin-left: 10px;
+    cursor: pointer;
 }
 .header-section{
     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
@@ -233,6 +235,76 @@ body{
     width: 366px;
     height: 312px;
     border-radius: 1.12rem;
+}
+/*--------------------------- Deals & Discounts ---------------------*/
+.deals-section-text{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.deals-section-description{
+    margin-bottom: 3.62rem;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.87rem;
+    font-weight: 400;
+    text-align: center;
+}
+.deals-section-image, .deals-section-image2{
+    background-image: url("../images/exercise6.jpg");
+    padding: 4rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+}
+.deals-section-image2{
+    background-image: url("../images/exercise2.png");
+}
+.deals-container02, .deals-container002{
+    display: flex;
+    justify-content: end;
+    margin: 0 3rem;
+}
+.deals-container002{
+    justify-content: start;
+}
+.deals-container{
+    width: 579px;
+    padding: 3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 1rem;
+    background: linear-gradient(rgba(17, 17, 17, 0.459), rgba(43, 42, 42, 0.404) );
+    backdrop-filter: blur(5px);
+    text-align: left;
+}
+.icon-text{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+.icon-text i{
+    color: #E6533C;
+}
+.span-price{
+    color: #E6533C;
+    text-align: left;
+    margin: 1rem auto;
+}
+.deals-card-text{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top:1rem ;
+}
+.deals-text-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.87rem;
+    font-weight: 400;
+    padding-top:1rem ;
 }
 /*------------------------- BMI Calculator style ----------------------------*/
 .bmi-calculator-section{
