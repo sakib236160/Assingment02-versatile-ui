@@ -5,10 +5,17 @@
     .hum-bads{
         display: block;
     }
-    .banner-section, .footer-flex, .table-form-container, .deals-container02, .deals-container002, .icon-text{
+    .banner-section, 
+    .footer-flex, 
+    .table-form-container, 
+    .deals-container02, 
+    .deals-container002, 
+    .icon-text{
         flex-direction: column;
     }
-    .habits-container, .row, .form-inputs{
+    .habits-container, 
+    .row, 
+    .form-inputs{
         grid-template-columns: repeat(1, 1fr);
     }
     .habits-card img{
@@ -21,7 +28,12 @@
     .form{
         text-align: left;
     }
-    .bmi-description, .table-heading, .form-heading,.form-description,.form-inputs,.activity-select{
+    .bmi-description, 
+    .table-heading, 
+    .form-heading,
+    .form-description,
+    .form-inputs,
+    .activity-select{
         width: 50%;
     }
     .run-section{
